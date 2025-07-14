@@ -1,0 +1,104 @@
+# 🧩 Case Study: From Tech-Enabled Services to SaaS – A Strategic Shift
+
+## 🚀 Overview
+
+This case study outlines the transformation of a healthcare product from a **technology-enabled consulting service** into a **scalable enterprise SaaS platform**. 
+The transition was necessary to support growth, reduce manual effort, and standardize delivery across diverse healthcare clients.
+
+---
+
+## 🏥 Context
+
+- **Industry:** Healthcare (ACO enablement / Risk Adjustment / Value-Based Care)
+- **Users:** Analysts, clinical coders, operations teams at provider organizations
+- **Initial Model:** High-touch, customized service with technology assistance
+- **Challenge:** As clients grew, the model became hard to scale and support
+
+---
+
+## 🧠 Key Problem
+
+> “How can we serve 10x more clients with the same lean team, while maintaining accuracy, compliance, and customer satisfaction?”
+
+- Manual workflows created bottlenecks
+- Delivery timelines varied across clients
+- Customizations increased maintenance costs
+- Hard to track performance or reuse solutions
+
+---
+
+## 🎯 Product Vision
+
+**Enable customers to self-serve insights and reporting through a multi-tenant, secure, SaaS platform.**
+
+| Goal                         | Outcome                                                    |
+|------------------------------|-------------------------------------------------------------|
+| Standardize outputs          | Predictable deliverables, repeatable processes              |
+| Enable self-service          | Interactive dashboards, data extracts                      |
+| Reduce manual overhead       | Automation pipelines, task triggers                        |
+| Scale with less effort       | Modular backend, configurable rule engines                 |
+
+---
+
+## 🔨 Product Strategy
+
+### 🔍 1. Discovery & Research
+
+- Stakeholder interviews with internal analysts & client users
+- Analyzed high-frequency manual tasks
+- Identified shared logic vs client-specific needs
+
+### 🧱 2. Foundational Architecture
+
+- **Multi-tenant SaaS model** with RBAC
+- **Modular services** for client-specific logic (plug-and-play)
+- **ETL pipeline** using dbt + SQL for healthcare data normalization
+
+### 🛠 3. MVP Build
+
+| Phase       | Key Features                                       |
+|-------------|----------------------------------------------------|
+| Phase 1     | Single dashboard with risk scores + CSV exports    |
+| Phase 2     | Role-based access, audit logs, and tagging         |
+| Phase 3     | Custom alerting rules and secure APIs              |
+
+---
+
+## 📊 Metrics of Success
+
+| Metric                         | Before                  | After SaaS Launch         |
+|-------------------------------|-------------------------|---------------------------|
+| Avg. Client Onboarding Time   | 4–6 weeks               | 1–2 weeks                 |
+| Manual Tasks / Client         | ~25                     | < 5                       |
+| Clients Supported / Analyst   | 2–3                     | 8–10                      |
+| Reusable Components           | 30%                     | 85%+                      |
+
+---
+
+## 💡 Key Learnings
+
+- Start small: Migrating core workflows first minimized disruption
+- Documentation = power: Standard operating procedures helped training & testing
+- Flexible schema design is crucial in healthcare data products
+- Communication with clients eased the fear of losing “white-glove” service
+
+---
+
+## 🔗 Related Tools & Tech
+
+- **Cloud Infra:** AWS / GCP
+- **Data Platform:** SquareML
+- **Front-End:** React.js + Dashboards (SquareML)
+- **Security:** HIPAA, RBAC, encryption in transit + at rest
+
+---
+
+## ✍️ Author
+
+**Meenakshi Subramanian**  
+Senior Product Manager | Healthcare SaaS | Data & AI Enthusiast  
+🔗 [LinkedIn](https://www.linkedin.com/in/meenamanian89/) 
+
+---
+
+> ⭐ _Star this repo if you're interested in more real-world product strategy breakdowns from healthcare, AI, and cloud-based solutions!_
